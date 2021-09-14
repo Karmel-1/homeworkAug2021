@@ -1,4 +1,15 @@
-let pizzaToppings = ["pineapples", "chicken", "banana peppers", "bbq sauce"];
+let pizzaToppings = [
+  "pineapples",
+  "chicken",
+  "banana peppers",
+  "bbq sauce",
+  10,
+  99,
+  3,
+  65,
+  32,
+  84
+];
 function greetCustomer() {
   let greeting =
     " Welcome to Peekers Pizza, We offer many great toppings like ";
@@ -12,11 +23,21 @@ greetCustomer();
 function getPizzaOrder(size, crust, ...toppings) {
   console.log(`one large thick crust pizza with ${pizzaToppings}`);
 }
-getPizzaOrder();
+function preparePizza(myArray) {
+  const myPizzaObject = {
+    Size: myArray[0],
+    Crust: myArray[1],
+    Toppings: []
+  };
+  let x = 2;
+  for (x = 2; x < myArray.length; x++) {
+    myPizzaObject.Toppings[x] = myArray[x];
+    console.log(myPizzaObject.Toppings[x], x);
 
-function preparePizza "large" "thincrust" "cheese"
-let preparePizza = cooking pizza
+  }
+}
+preparePizza(pizzaToppings);
+// function servePizza
 
-
-let servePizza = {
-
+// function preparePizza(size, crust, ...toppings) {
+//   console.log (10in, thick crust, beef toppings)}
