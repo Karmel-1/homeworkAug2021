@@ -64,3 +64,14 @@ console.log(newArray);
 
 // join the merged array and print the result
 console.log(newArray.join("+"));
+
+// create an array of latitude and longitude coordinate pairs
+//------------------------------
+
+const coords = [];
+
+data.forEach(curr => {
+  let lat = curr.address.geo.lat;
+  let lng = curr.address.geo.lng;
+  coords.push([lat, lng]);
+});
