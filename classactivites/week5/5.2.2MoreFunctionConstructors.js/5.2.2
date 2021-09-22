@@ -1,0 +1,29 @@
+// create a function constructor that works as a template for an Animal
+// include properties for name, type, weight, etc.
+
+function Animal(name, type, weight, interest) {
+    this.name = name;
+    this.type = type;
+    this.weight = weight;
+    this.interest = interest;
+}
+
+// create a new instance on an Animal
+
+const Scarlet = new Animal ("Peekers", 1, 30, ["play", "jump", "hammick"]);
+console.log(Scarlet);
+
+// add methods to the Animal prototype
+
+Animal.prototype.foodType = function() {
+    return "rosegold"
+};
+console.log(Peekers.color());
+
+
+// attach a method directly to the Animal instance that "overwrites" a prototype method
+
+Peekers.favoritcoloe = function othercolors() {
+    return "paint";
+}
+console.log(Peekers.favoritcolor());
