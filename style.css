@@ -1,0 +1,27 @@
+The #bio <ul> at the top of the page
+<img https://eay8xzxp7gq.exactdn.com/wp-content/uploads/2020/08/Andre-The-Giant-696x393.jpg?strip=all&lossy=1&ssl=1> tags
+<div> tags
+links
+
+
+var myImage = new Image(100, 200);
+
+<img src="https://eay8xzxp7gq.exactdn.com/wp-content/uploads/2020/08/Andre-The-Giant-696x393.jpg?strip=all&lossy=1&ssl=1" alt="Girl in a jacket" width="500" height="600">
+
+<div class="myDiv">
+  <h2>André René Roussimoff, better known by his ring name André the Giant, was a French professional wrestler and actor. </h2>
+  <p> André stood over seven feet tall, a condition called gigantism caused by excess growth hormone. Over time this condition leads to abnormally large hands and feet, and a wide range body over all. he was recruiting to the WWWF were he wrestled over 15 years. After leaving the WWF in the early 1990s.  Being unusually tall led  André to make many apperances like;
+  <ul>
+    <li>Professional Wrestling Hall of Fame</li>
+    <li>Famous Hulk Hogan feud</li>
+    <li>The Princess Bride</li>
+    </ul>
+
+    André René Roussimoff began being called "The Eighth Wonder of the World.
+   About 3 years later Andre passed away due to heart failure</p>
+</div>
+
+var myImage = new Image(200, 300);
+myImage.src = 'andre.jpg';
+document.body.andrethegiant(myImage);
+
