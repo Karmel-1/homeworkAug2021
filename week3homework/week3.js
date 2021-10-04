@@ -23,6 +23,8 @@ greetCustomer();
 function getPizzaOrder(size, crust, ...toppings) {
   console.log(`one large thick crust pizza with ${pizzaToppings}`);
 }
+let myArray = (size, crust, toppings);
+
 function preparePizza(myArray) {
   const myPizzaObject = {
     Size: myArray[0],
@@ -33,7 +35,6 @@ function preparePizza(myArray) {
   for (x = 2; x < myArray.length; x++) {
     myPizzaObject.Toppings[x] = myArray[x];
     console.log(myPizzaObject.Toppings[x], x);
-
   }
 }
 preparePizza(pizzaToppings);
