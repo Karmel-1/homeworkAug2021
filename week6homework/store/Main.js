@@ -5,3 +5,10 @@ export default () => `
   ${views["Gallery"]()}
   ${views["Bio"]()}
   `;
+
+
+  export default {
+    header: "Main",
+    view: "Main"
+
+    };
